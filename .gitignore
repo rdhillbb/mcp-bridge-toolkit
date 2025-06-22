@@ -1,0 +1,95 @@
+# MCP Development Toolkit - Git Ignore File
+
+# Session and internal files
+session.recap
+
+# Non-working programs directory
+notworking/
+
+# Go compiled binaries (exclude executables in root directory)
+helloserver
+servermain
+hellotest
+helloclienttest
+remoteserver
+proxy
+
+# Go build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go test binary, built with `go test -c`
+*.test
+
+# Go coverage files
+*.out
+*.prof
+
+# Go workspace file
+go.work
+
+# Python-generated files
+__pycache__/
+*.py[oc]
+*.py[cod]
+*$py.class
+build/
+dist/
+wheels/
+*.egg-info
+
+# Python distribution / packaging
+.Python
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Python testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Log files
+*.log
+shorttest_output.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Node.js (for npxtest directory)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

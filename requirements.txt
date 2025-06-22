@@ -1,0 +1,12 @@
+# MCP Development Toolkit - Python Dependencies
+# Install with: pip3 install -r requirements.txt
+
+# Core MCP and Anthropic packages
+anthropic==0.49.0          # Anthropic Claude API client (anthroptestmcp.py)
+mcp==1.9.4                 # Model Context Protocol library 
+python-dotenv==1.1.0       # Environment variable loading
+
+# HTTP and networking packages  
+requests==2.32.3           # HTTP requests library (direct.py)
+certifi==2025.1.31        # Certificate validation
+urllib3==2.4.0             # HTTP client library
