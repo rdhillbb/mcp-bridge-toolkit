@@ -151,12 +151,6 @@ go run hellotest.go
 go run helloclienttest.go
 ```
 
-## Non-Working Programs
-
-Programs with compatibility issues have been moved to the `notworking/` directory:
-- `notworking/shorttest.py` - MCP streaming HTTP client (protocol mismatch)
-- `notworking/antroptest2.py` - MCP streaming HTTP client (protocol mismatch)  
-- `notworking/antropicmcpremote.py` - MCP streaming HTTP client (protocol mismatch)
 
 These programs expect streaming HTTP MCP servers but work with request/response HTTP servers.
 
